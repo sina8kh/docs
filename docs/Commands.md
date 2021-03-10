@@ -5,7 +5,7 @@ title: Commands
 
 :::info Note
 ### Always remember the following!
-- The default prefix of Rythm is `!`. If you have changed your prefix to something else, please use your prefix instead of `!`. If you forget your prefix, mention Rythm (`@Rythm#3722`).
+- The default prefix of Rythm is `1`. If you have changed your prefix to something else, please use your prefix instead of `!`. If you forget your prefix, mention Rythm (`@Rythm#3722`).
 - **Never include `<>` in your messages when using a command!**
 - Time can be in different formats
    + Example: `100`, `1:50`, `2m30s`
@@ -26,7 +26,7 @@ title: Commands
     - **Aliases:** `pt`, `ptop`
 ---
 - **`!playskip`** - Skips the current song and plays the song you requested.
-    - **Usage:** `!playskip <link/query>`
+    - **Usage:** `1playskip <link/query>`
     - **Aliases:** `ps`, `pskip`, `playnow`, `pn`
 ---
 - **`!search`** - Searches from [Youtube](https://www.youtube.com) for a song via your query and returns the top 10 results.
@@ -34,51 +34,51 @@ title: Commands
     - **Alias:** `find`
 ---
 - **`!soundcloud`** - Plays a song from [SoundCloud](https://www.soundcloud.com)  with the given name/url
-    - **Usage:** `!soundcloud <link/query>`
+    - **Usage:** `1soundcloud <link/query>`
     - **Alias:** `sc`
 ---
-- **`!nowplaying`** - Shows what song Rythm is currently playing.
+- **`1nowplaying`** - Shows what song Rythm is currently playing.
     - **Alias:** `np`
 ---
-- **`!grab`** - Saves the current playing song to your Direct Messages.
+- **`1grab`** - Saves the current playing song to your Direct Messages.
     - **Aliases:** `save`, `yoink`
 ---
-- **`!seek`** - Seeks to a certain point in the current track.
+- **`1seek`** - Seeks to a certain point in the current track.
     - **Usage:** `!seek <time>`
 ---
-- **`!rewind`** - Rewinds by a certain amount of time in the current track.
+- **`1rewind`** - Rewinds by a certain amount of time in the current track.
     - **Usage:** `!rewind <time>`
     - **Alias:** `rwd`
 ---
-- **`!forward`** - Forwards by a certain amount of time in the current track.
+- **`1forward`** - Forwards by a certain amount of time in the current track.
     - **Usage:** `!forward <time>`
     - **Alias:** `fwd`
 ---
-- **`!replay`** - Resets the progress of the current song.
+- **`1replay`** - Resets the progress of the current song.
 ---
-- **`!loop`** - Toggles looping for the current playing song.
+- **`1loop`** - Toggles looping for the current playing song.
     - **Alias:** `repeat`
 ---
-- **`!skip`** - Votes to skip the current playing song. **[More Info](/voteskip#how-many-votes-are-required-for-a-song-to-be-vote-skipped)**
+- **`1skip`** - Votes to skip the current playing song. **[More Info](/voteskip#how-many-votes-are-required-for-a-song-to-be-vote-skipped)**
     - **Other Usage:** `!skip <number>` - Skip a certain amount of songs.
     - **Alias:** `voteskip`, `next`, `s`
 ---
-- **`!forceskip`** - Skips the current playing song immediately.
+- **`1forceskip`** - Skips the current playing song immediately.
     - **Other Usage:** `!forceskip <number>` - Skip a certain amount of songs.
     - **Aliases:** `fs`, `fskip`
     - **Note:** `DJ` role/`Manage Channels` permission required.
 ---
-- **`!pause`** - Pauses the current playing track.
+- **`1pause`** - Pauses the current playing track.
     - **Alias:** `stop`
 ---
-- **`!resume`** - Resumes paused music.
+- **`1resume`** - Resumes paused music.
     - **Aliases:** `re`, `res`, `continue`
 ---
-- **`!lyrics`** - Gets the lyrics of the current playing song.
+- **`1lyrics`** - Gets the lyrics of the current playing song.
     - **Other Usage:** `!lyrics <song name>` - Gets the lyrics of the mentioned song.
     - **Aliases:** `l`, `ly`
 ---
-- **`!disconnect`** - Disconnects the bot from the voice channel it is in.
+- **`1disconnect`** - Disconnects the bot from the voice channel it is in.
     - **Aliases:** `dc`, `leave`, `dis`, `fuckoff`
 ---
 
